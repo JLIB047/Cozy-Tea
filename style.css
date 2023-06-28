@@ -32,3 +32,45 @@ img {
 li {
     padding: 0px 20px; 
 }
+
+.container{
+    margin: auto;
+}
+
+#mission{
+    height: 700px; 
+    width: 1200px; 
+    background-image: url("./resources/img-mission-background.jpg"); 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 80px;
+}
+
+.mission-wrapper{ 
+    width: 100%; 
+    background-color: black;
+    text-align: center;
+}
+
+#totm {
+    max-width: 1000px; 
+    height: auto; 
+    margin-bottom: 80px; 
+}
+
+.img-gallery{
+    display: inline-flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.gallery-wrapper h2, .gallery-wrapper h4{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.img-item img{
+    width: 300px; 
+    height: 200px; 
+    margin: 10px;
+}
